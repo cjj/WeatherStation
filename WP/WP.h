@@ -42,7 +42,7 @@ tftTYPE  findTFT(void);
                               //  with 4K7 Ohm pullup to VCC 5V
 #define dsResetTime 250       // delay time req'd after search reset in msec
 #define DSMAX 4               // max number of devices we're prepared to handle
-#define oneWirePin 5          // We'll use Uno pin 5 for OneWire connections to DS18B20
+define oneWirePin 4          // We'll use Uno pin 5 for OneWire connections to DS18B20 -->4 for cjj
 
 // DHT22 pin definitions and parameters
                               // VCC to Uno 5v, GND to Uno GND
